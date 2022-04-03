@@ -99,11 +99,16 @@ footer {
 
 /* Header Styles */
 
+header {
+  padding: 15px 0;
+}
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
 }
 
 header img {
@@ -111,7 +116,8 @@ header img {
 }
 
 header .header-divider {
-
+  border: #3a3a3a solid 1px;
+  width: 100%;
 }
 
 header nav {
@@ -119,13 +125,21 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
+  padding: 20px 0;
 }
 
 header nav ul {
   display: flex;
-  justify-content: space-around;}
+  justify-content: space-around;
+  width: 45%;
+}
 
 /* ------ Mobile Styles - Homepage ---------*/
+
+.content-wrapper {
+  width: 90%;
+}
 
 .hero-area {
   display: flex;
@@ -142,6 +156,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding: 30px 0 55px 0;
 }
 
 .form-description {
@@ -158,12 +173,16 @@ aside {
   align-items: center;
 }
 
+.features p {
+  margin: 0;
+}
+
 .features-items {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-
+  width: 55%;
 }
 
 .fontawesome-icon {
@@ -178,6 +197,11 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  padding: 55px 0 45px 0;
+}
+
+.reviews h3 {
+  width: 50%;  /* Might need to adjust this so it's only two lines */
 }
 
 /* ----- About Page ------ */
@@ -187,6 +211,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 90%;
 }
 
 .contact-section {
@@ -194,6 +219,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 90%;
 }
 
 /* ------ FAQ Page ------- */
@@ -210,6 +236,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 90%;
 }
 
 /* Footer */
@@ -218,8 +245,17 @@ footer {
 
 }
 
-footer .footer-content {
+footer p {
+  margin: 0;
+}
 
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+footer .footer-content {
+  margin: 0 50px;
 }
 
 footer .contact {
@@ -227,7 +263,7 @@ footer .contact {
 }
 
 footer .social {
-
+  padding: 45px 0 50px 0;
 }
 
 footer .social-icons {
