@@ -515,6 +515,62 @@ footer .copyright {
 @media only screen and (min-width: 1200px) {
   /*Desktop Styles Here*/
 
+/* General Styles */
+.content-wrapper {
+  width: 960px;
+}
+
+/* Hero Area */
+.hero-area h1 {
+  width: 55%;
+}
+
+/* Aside */
+
+aside .content-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+  width: 65%;
+}
+
+/* Features */
+
+.features h2 {
+  width: 70%;
+}
+
+.features article {
+  flex-basis: auto;
+}
+
+/* Reviews */
+
+.reviews article div {
+  width: 76%;
+}
+
+/* ===========================================================================
+  About PAGE
+  ============================================================================
+  */
+
+.mission h2,
+.contact-section .content-wrapper h2 {
+  width: 78%;
+}
+
+/* ===========================================================================
+  FAQ PAGE
+  ============================================================================
+  */
+
+.faq h2 {
+  width: 100%;
+}
 }
 
 /* ==========================================================================
