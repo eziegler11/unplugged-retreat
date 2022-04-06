@@ -322,6 +322,7 @@ input[type=button] {
   flex-flow: row wrap;
   width: 100%;
   background-color: #527158;
+  padding: 20px 0;
 }
 
 .mission h2 {
@@ -335,6 +336,7 @@ input[type=button] {
   flex-flow: row wrap;
   width: 100%;
   background-color: #2a423a;
+  padding: 20px 0;
 }
 
 .contact-section h2 {
@@ -353,6 +355,7 @@ input[type=button] {
   align-items: center;
   flex-flow: row wrap;
   background-color: #527158;
+  padding: 25px 0;
 }
 
 .faq h2 {
@@ -386,7 +389,7 @@ footer p {
 }
 
 footer .content-wrapper {
-  width: 55%;
+  width: 70%;
   margin: 40px 0;
 }
 
@@ -401,7 +404,7 @@ footer .social {
 
 footer .social-icons {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 
