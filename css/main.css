@@ -267,32 +267,38 @@ input[type=button] {
 }
 
 .features {
+  background: url('../img/rawpixel-800820-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
-  align-items: center;
-  background: url('../img/rawpixel-800820-unsplash.jpg') center no-repeat #333;
-  background-size: cover;
+  flex-flow: row wrap;
 }
 
-.features p {
-  margin: 0;
+.features h2 {
+  margin-bottom: 60px;
 }
 
-.features-items {
+.features article {
+  width: 63%;
+  margin: 30px 0;
+}
+
+.features .features-items {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  width: 55%;
+}
+
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
+
+.features p {
   text-align: center;
-}
-
-.fontawesome-icon {
-
-}
-
-.features-item-description {
-
+  margin: 0;
 }
 
 .reviews {
@@ -601,16 +607,20 @@ aside .content-wrapper .form {
 
 /* Features */
 
+.features h2 {
+  margin-bottom: 20px;
+}
+
 .features article {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-flow: column wrap;
-  flex-basis: 26%;
+  flex-basis: 50%;
 }
 
 .features .features-item-description {
-  width: 25%;
+  width: 62%;
 }
 
 /* Reviews */
@@ -807,11 +817,11 @@ aside .form h3 {
 /* Features */
 
 .features h2 {
-  width: 70%;
+  width: 90%;
 }
 
 .features article {
-  flex-basis: auto;
+  flex-basis: 33%;
 }
 
 /* Reviews */
