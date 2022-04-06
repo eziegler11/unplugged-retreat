@@ -387,24 +387,21 @@ footer p {
 
 footer .content-wrapper {
   width: 55%;
-  margin: 50px 0;
-}
-
-footer .footer-content {
-  margin: 0 50px;
+  margin: 40px 0;
 }
 
 footer .contact {
-
+  text-align: center;
 }
 
 footer .social {
-  padding: 45px 0 50px 0;
+  padding-top: 30px;
+  text-align: center;
 }
 
 footer .social-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -412,10 +409,19 @@ footer .social p {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: #527158 solid;
+  background-color: #527158;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+footer .social i {
+  font-size: 1.125em;
 }
 
 footer .copyright {
-
+  padding-bottom: 10px;
 }
 
 
@@ -561,7 +567,7 @@ header .content-wrapper {
 }
 
 header nav {
-  width: 20%;
+  width: 10%;
 }
 
 header nav ul {
@@ -666,22 +672,28 @@ aside .content-wrapper .form {
 /* Footer */
 
 footer .content-wrapper {
-  width: 65%;
-  margin: 100px 0;
+  width: 100%;
+  margin: 40px 0;
 }
 
 .footer-content {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
 
 footer .contact {
   margin-bottom: 0;
 }
 
+footer .social {
+  padding: 0;
+  width: 25%;
+}
+
 footer .copyright {
   width: 25%;
+  padding-top: 25px;
 }
 
 /* ===========================================================================
@@ -779,6 +791,10 @@ header figure {
   width: 24%;
 }
 
+header nav {
+  width: 2%;
+}
+
 /* Hero Area */
 
 .hero-area h1 {
@@ -838,6 +854,12 @@ aside .form h3 {
   width: 80%;
   padding-right: 25px;
   margin-bottom: 25px;
+}
+
+/* Footer */
+
+footer .social {
+  width: 20%;
 }
 
 /* ===========================================================================
